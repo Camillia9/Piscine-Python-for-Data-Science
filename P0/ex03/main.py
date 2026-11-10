@@ -1,3 +1,5 @@
+from NULL_not_found import NULL_not_found
+
 def main():
     Nothing = None
     Garlic = float("NaN")
@@ -11,3 +13,6 @@ def main():
     NULL_not_found(Empty)
     NULL_not_found(Fake)
     print(NULL_not_found("Brian"))
+
+if __name__ == '__main__':
+    main()
